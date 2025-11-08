@@ -2,7 +2,7 @@
 <manifest>
 
 <!-- Kernel -->
-<project path="kernel/xiaomi/sdm439" name="Jprimero15/android_kernel_xiaomi_sdm439-4.19" remote="github" clone-depth="1" revision="vic" />
+<project path="kernel/xiaomi/sdm439" name="tavukkdoner/android_kernel_xiaomi_sdm439-4.19" remote="github" clone-depth="1" revision="vauxite-ksu" />
 
 <!-- HALs -->
 <project path="hardware/mithorium-4.19" name="MI439-CLO/android_hardware_mithorium-4.19" remote="github" revision="vic" />
@@ -11,21 +11,22 @@
 <project path="hardware/mithorium-4.19/media-hal" name="Mi-Thorium/android_hardware_qcom_media_mithorium" remote="github" revision="mithorium/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0" />
 
 <!-- Dependencies -->
-<project path="hardware/mithorium-4.19/display" name="MI439-CLO/android_vendor_qcom_opensource_display-commonsys-intf" remote="github" revision="vic" />
-<project path="hardware/mithorium-4.19/display-commonsys" name="MI439-CLO/android_vendor_qcom_opensource_display-commonsys" remote="github" revision="vic" />
+<project path="hardware/mithorium-4.19/display" name="tavukkdoner/android_vendor_qcom_opensource_display-commonsys-intf" remote="github" revision="vauxite" />
+<project path="hardware/mithorium-4.19/display-commonsys" name="tavukkdoner/android_vendor_qcom_opensource_display-commonsys" remote="github" revision="vauxite" />
    
 <!-- GPS -->
-<project path="hardware/qcom-caf/gps-legacy" name="MI439-CLO/android_hardware_qcom_gps" remote="github" revision="uvite-legacy-component" />
+<project path="hardware/qcom-caf/gps-legacy" name="tavukkdoner/android_hardware_qcom_gps" remote="github" revision="vauxite-legacy-component" />
    
-<!-- Device -->
-<project path="device/xiaomi/mi439" name="MI439-CLO/device_xiaomi_mi439" remote="github" revision="vic-qpr2" />
-<project path="device/qcom/common" name="MI439-CLO/device_qcom_common" remote="github" revision="vic-qpr1" />
+<!-- Device MI439-CLO/device_qcom_common vic-qpr1 -->
+<project path="device/xiaomi/mi439" name="tavukkdoner/device_xiaomi_mi439" remote="github" revision="vauxite" />
+<project path="device/qcom/common" name="tavukkdoner/device_qcom_common" remote="github" revision="beryl" />
+   
 
 <!--- Vendor Blobs -->
 <project path="vendor/xiaomi/mi439" name="LOLZKERNEL/proprietary_vendor_xiaomi_mi439-4.19" remote="github" clone-depth="1" revision="vic" />
-<project path="vendor/qcom/common" name="LOLZKERNEL/proprietary_vendor_qcom_common" remote="github" clone-depth="1" revision="vauxite-qpr1" />
+<project path="vendor/qcom/common" name="tavukkdoner/proprietary_vendor_qcom_common" remote="github" clone-depth="1" revision="vauxite" />
 
 <!-- Vendor Opensource -->
-<project path="vendor/qcom/opensource/core-utils" name="MI439-CLO/android_vendor_qcom-opensource_core-utils" remote="github" revision="vic" />
+<project path="vendor/qcom/opensource/core-utils" name="tavukkdoner/android_vendor_qcom-opensource_core-utils" remote="github" revision="vauxite" />
 
 </manifest>
