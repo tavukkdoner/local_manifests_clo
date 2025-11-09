@@ -18,7 +18,7 @@
 <project path="hardware/qcom-caf/gps-legacy" name="tavukkdoner/android_hardware_qcom_gps" remote="github" revision="vauxite-legacy-component" />
    
 <!-- Device MI439-CLO/device_qcom_common vic-qpr1 -->
-<project path="device/xiaomi/mi439" name="tavukkdoner/device_xiaomi_mi439" remote="github" revision="vauxite" />
+<project path="device/xiaomi/mi439" name="tavukkdoner/device_xiaomi_mi439" remote="github" revision="crdroid-16" />
 <project path="device/qcom/common" name="tavukkdoner/device_qcom_common" remote="github" revision="beryl" />
    
 
