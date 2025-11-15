@@ -2,7 +2,7 @@
 <manifest>
 
 <!-- Kernel -->
-<project path="kernel/xiaomi/sdm439" name="tavukkdoner/android_kernel_xiaomi_sdm439-4.19" remote="github" clone-depth="1" revision="vauxite-ksu" />
+<project path="kernel/xiaomi/sdm439" name="tavukkdoner/android_kernel_xiaomi_sdm439-4.19" remote="github" clone-depth="1" revision="vauxite-ksu-test" />
 
 <!-- HALs -->
 <project path="hardware/mithorium-4.19" name="MI439-CLO/android_hardware_mithorium-4.19" remote="github" revision="vic" />
